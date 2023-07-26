@@ -20,12 +20,35 @@
     Select Tour Package* :
 <br>
     <select>
-        <option value="">Goe</option>
+        <option value="">Goa</option>
     </select>
 <br>
-<input type="date" name="number" placeholder="UNKOWN_TYPE">
-Number of persons*:
+    Arrival date*:
+<br>
+
+    <input type="text" placeholder="m/d/y">
+<br>
+    Number of persons*:
 <br>
     <input type="number"  placeholder="UNKOWN_TYPE">
+<br>
+    What would you want to avail?*
+<br>
+    Boarding <input type="checkbox"  placeholder="">
+<br>
+    Fooding <input type="checkbox"  placeholder="">
+<br>
+    Sigth seeing  <input type="checkbox"  placeholder="">
+<br>
+    Discout Coupon code:
+<br>
+    <input type="text"  placeholder="UNKOWN_TYPE">
+<br>
+    Terms and conditions*
+<br>
+    <input type="radio"  > I agree
+    <input type="radio"  > I disagree
+<br>
+    <input type="submit" value="Complete reservation">
 </body>
-</html>
+</html
