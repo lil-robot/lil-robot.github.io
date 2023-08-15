@@ -1,0 +1,25 @@
+tr{
+    height: 45px;
+}
+.fistcol{
+    height: 250px;
+}
+input{
+    height: 30px;
+    width: 75px;
+}
+label{
+    height: 35px;
+    font-family: Georgia;
+    font-size: 14;
+}
+button{
+    border: azure;
+    height: 20px;
+}
+button:hover{
+    background: linear-gradient(azure, aqua) ;
+}
+.back{
+    height: 40px;
+}
