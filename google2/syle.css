@@ -1,0 +1,36 @@
+#gmail{
+    top: 22px;
+    right: 188px;
+    position: absolute;
+}
+
+#imagens{
+    top: 22px;
+    right: 120px;
+    position: absolute;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    font-family: 'arial';
+    font-size: small;
+   }
+
+a:hover{
+   text-decoration: underline;
+}
+
+.material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+.material-symbols-outlined{
+    position: absolute;
+    top: 18px;
+    right: 70px;
+}
