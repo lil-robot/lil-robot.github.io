@@ -1,23 +1,28 @@
 .container{
     width: 100vw;
     height: 100vh;
-
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 15px;
+    grid-template-columns: repeat(3) , 1fr;
+    grid-template-rows: repeat(4) , 1fr ;
     grid-template-areas: "one two two" 
     "three two two" 
-    "three four four" 
+    "three void four" 
     "three five six";
 }
 
 
 div{
+    border: 1px;
+    margin: 10px;
     width: 100%;
     height: 100%;
+    background-color: rgba(255, 165, 0, 0.3);
+    border-radius: 5px;
+    color: rgb(110, 75, 9);
 }
+
 #One{
-    background-color: purple;
     grid-area: one;
     grid-row-start: 1;
     grid-row-end: 1;
@@ -25,22 +30,17 @@ div{
     grid-column-end: 3 ;
 }
 #Two{
-    background-color: rgba(255, 255, 0, 50%);
     grid-area: two;
 }
 #Three{
-    background-color: gray;
     grid-area: three;
 }
 #Four{
-    background-color: black;
     grid-area: four;
 }
 #Five{
-    background-color: aqua;
     grid-area: five;
 }
 #Six{
-    background-color: green;
     grid-area: six;
 }
