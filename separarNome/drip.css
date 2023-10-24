@@ -1,0 +1,22 @@
+div{
+    width: 900px;
+    height: 350px;
+}
+#button{
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(64, 64, 231);
+    width: 70px;
+    height: 25px;
+    border-radius: 10%;
+    border: 10px;
+}
+#button:hover{
+    background-color: rgb(16, 16, 185);
+}
+td{
+    padding: 10px;
+}
+
+.fsbnome{
+    margin: 10px;
+}
