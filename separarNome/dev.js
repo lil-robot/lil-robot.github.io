@@ -1,10 +1,10 @@
-function SubistituirNomes(){
-    const inputNomeCompleto = document.querySelector('#nome').value
-    const inputPrimeiroNome = document.querySelector('#fnome')
-    const inputSobreNome = document.querySelector('#sobrenome')
+function SubstituirNomes(){
+    const NomeCompleto = document.querySelector('#nome').value
+    const PrimeiroNome = document.querySelector('#fnome')
+    const SobreNome = document.querySelector('#sobrenome')
 
-    const Pnome = inputNomeCompleto.split(" ")[0]
-    const Snome = inputNomeCompleto.split(" ")[1]
-    inputPrimeiroNome.value = Pnome
-    inputSobreNome.value = Snome
+    const Pnome = NomeCompleto.split(" ")[0]
+    const Snome = NomeCompleto.split(" ")[1]
+    PrimeiroNome.value = Pnome
+    SobreNome.value=Snome
 }
