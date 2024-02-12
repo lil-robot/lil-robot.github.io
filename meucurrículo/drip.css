@@ -1,0 +1,79 @@
+header{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 0vh;
+    grid-template-areas: "left right";
+}
+
+.left{
+    text-align: center;
+    grid-area: left;
+}
+
+.right{
+    display: flex;
+    margin-left: 7%;
+    grid-area: right;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #e9dfcc;
+    padding: 10px 20px 0px 20px;
+    margin-top: 7px;
+    font-size: larger;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, white 50%, rgb(157, 23, 157) 50%);
+}
+
+p{
+    font-size: large;
+}
+
+.cartaovisita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+h3, h4, a, p{
+    font-family: sans-serif;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.roxo{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.branco{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.roxo:hover, .branco:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

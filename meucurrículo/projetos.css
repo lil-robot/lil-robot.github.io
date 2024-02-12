@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 120vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 79%;
+    height: 4%;
+    background-color: gray;
+    margin-left: 10vw;
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 35vh 35vh 35vh;
+    position: absolute;
+    align-items: center;
+}
+
+.projesq, .projdir{
+    width: 39vw;
+    height: 32vh;
+    background-color: gray;
+}
+
+.projesq{
+    margin-left: 20%;
+}
+
+.projdir{
+    margin-right: 20%;
+}
+
+hr{
+    position: absolute;
+    bottom: 30vh;
+    border-color: blue;
+    
+}
