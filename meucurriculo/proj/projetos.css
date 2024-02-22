@@ -28,9 +28,24 @@ body{
     position: relative;
     align-items: center;
     width: 100vw;
-    height: 110vh;
+    height: 500vh;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 10vw 40vw 50vw;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas: 
+    "void"
+    "void"
+    "void"
+    "void"
+    "void"
+    "void"
+    "void"
+    "void"
+    "void";
+}
+
+.void{
+    grid-area: void;
 }
 
 .projeto{
@@ -38,26 +53,10 @@ body{
     height: 32vh;
     border-radius: 5px;
     background-color: black;
-    margin-bottom: 2vh;
     position: relative;
     border-color: blueviolet;
     border-width: 2px;
     border-style: solid;
-}
-
-.projesq{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10vw;
-    width: 50vw;
-    height: 110vh;
-}
-
-.projdir{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    height: 110vh;
 }
 
 a{
@@ -72,6 +71,6 @@ a{
 hr{
     position: absolute;
     bottom: 30vh;
-    border-color: blue;
+    border-color: black;
     
 }
